@@ -37,8 +37,8 @@ app.post("/payment", async (req, res) => {
         },
       ],
       mode: "payment",
-      success_url: "http://localhost:5173/checkout",
-      cancel_url: "http://localhost:5173/checkout",
+      success_url: "https://blogger-stricks.netlify.app/checkout",
+      cancel_url: "https://blogger-stricks.netlify.app/checkout",
       customer_email: "DishantSangani@gmail.com",
     });
 
